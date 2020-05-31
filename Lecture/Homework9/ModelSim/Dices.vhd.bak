@@ -1,0 +1,45 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+------------------------------------------------------
+ENTITY DiceRoller IS
+PORT ( 
+ Roll0, Roll1 : IN STD_LOGIC;
+ Clk, RSTn : IN STD_LOGIC;
+ Dig0, Dig1 : OUT STD_LOGIC_VECTOR (3 downto 0)
+);
+END DiceRoller;
+------------------------------------------------------
+ARCHITECTURE behavioral OF DiceRoller IS
+ SIGNAL RollTotal, Die0, Die1 : STD_LOGIC_VECTOR(3 downto 0);
+BEGIN
+RollTotal <= Die0 + Die1;
+Dig1 <= "0001" when RollTotal > "1001" else
+ "0000";
+Dig0 <= RollTotal + "0110" when RollTotal > "1001" else
+ RollTotal;
+--------------------------
+clk_proc: PROCESS (RSTn, Clk)
+-- only reset and clk are in the sensitivity list for this process
+BEGIN
+ IF ( RSTn = '0' ) THEN --asynchronous reset
+ Die1 <= "0001";
+ Die0 <= "0001";
+ ELSIF (Clk'EVENT AND Clk = '1') THEN
+ IF (Roll0 = '1') THEN -- handle Die2
+ IF Die0 = "0110" THEN
+ Die0 <= "0001";
+ ELSE
+ Die0 <= Die0 + 1;
+ END IF;
+ END IF;
+ END IF; -- end elsif
+ IF (Roll1 = '1') THEN -- handle Die1
+ IF Die1 = "0110" THEN
+ Die1 <= "0001";
+ ELSE
+ Die1 <= Die1 + 1;
+ END IF;
+ END IF;
+END PROCESS clk_proc;
+END behavioral;

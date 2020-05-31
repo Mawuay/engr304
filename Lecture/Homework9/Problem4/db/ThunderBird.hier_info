@@ -1,0 +1,14 @@
+|ThunderBird
+LeftTurn1 <= C1.DB_MAX_OUTPUT_PORT_TYPE
+reset => C1.ACLR
+reset => C0.ACLR
+reset => C2.ACLR
+clock => C1.CLK
+clock => C0.CLK
+clock => C2.CLK
+Lft => inst2.IN1
+Lft => inst3.IN0
+LeftTurn2 <= C2.DB_MAX_OUTPUT_PORT_TYPE
+LeftTurn <= C0.DB_MAX_OUTPUT_PORT_TYPE
+
+

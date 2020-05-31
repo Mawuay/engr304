@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Multiplexer is
+ port (
+A, B, C, D : IN std_logic; 
+X, Y : IN std_logic; 
+F : OUT std_logic 
+ );
+ 
+end entity Multiplexer;
+
+architecture Behavioral of Multiplexer is 
+begin
+process (A,B,C,D,X,Y) is
+begin 
+  if (X = '0' and Y = '0') then
+      F <= A; 
+      
+  elsif (X = '1' and Y = '0') then
+      F <= B;
+      
+  elsif(X = '0' and Y = '1') then
+      F <= C;
+      
+  else 
+      F <= A;
+  end if;
+
+end process;
+end Behavioral;

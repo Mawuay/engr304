@@ -1,0 +1,9 @@
+Fitter Status : Successful - Sat Apr 27 20:26:49 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : DiceRoller
+Top-level Entity Name : DiceRoller
+Family : MAX7000S
+Device : EPM7064SLC44-10
+Timing Models : Final
+Total macrocells : 29 / 64 ( 45 % )
+Total pins : 16 / 36 ( 44 % )

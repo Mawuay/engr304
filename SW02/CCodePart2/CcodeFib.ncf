@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nios2_config version="1.0">
+    <system>
+        <system_info filepath="true">..\..\Lab2 Documents\Templates\NIOSBasicQsys.qsys</system_info>
+        <system_sof filepath="true">..\..\Lab2 Documents\Templates\NIOSBasic.sof</system_sof>
+        <system_jdi filepath="true">..\..\Lab2 Documents\Templates\NIOSBasic.jdi</system_jdi>
+        <cable>USB-Blaster [USB-0]</cable>
+        <processor JTAGHubInstanceID="0">CPU</processor>
+        <elf_section name="text">
+            <memory_device>OnChipRam/s1</memory_device>
+            <memory_start_offset>0</memory_start_offset>
+        </elf_section>
+        <elf_section name="data">
+            <memory_device>OnChipRam/s1</memory_device>
+            <memory_start_offset>0</memory_start_offset>
+        </elf_section>
+        <terminal JTAGHubInstanceID="-1"/>
+    </system>
+    <program>
+        <type>C</type>
+        <options>
+            <source_files>
+                <source_file filepath="true">Engr304L_SW02_main.c</source_file>
+            </source_files>
+            <compiler_flags>-g -O0 -ffunction-sections -fverbose-asm -fno-inline</compiler_flags>
+            <emulate_unimpl_instructions>true</emulate_unimpl_instructions>
+            <use_small_c_library>false</use_small_c_library>
+        </options>
+    </program>
+</nios2_config>

@@ -1,0 +1,13 @@
+H:/JuniorYear/ENGR304/Lecture/Homework/FourBitAdder.vhd {0 {vcom -work work -2002 -explicit H:/JuniorYear/ENGR304/Lecture/Homework/FourBitAdder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+** Error: (vcom-11) Could not find ieee.fulladd_package.
+
+** Error: H:/JuniorYear/ENGR304/Lecture/Homework/FourBitAdder.vhd(3): (vcom-1195) Cannot find expanded name "ieee.fulladd_package".
+
+** Error: H:/JuniorYear/ENGR304/Lecture/Homework/FourBitAdder.vhd(3): Unknown expanded name.
+** Error: H:/JuniorYear/ENGR304/Lecture/Homework/FourBitAdder.vhd(3): near "EOF": syntax error
+
+} {6.0 7.0 8.0 9.0 10.0 12.0} {}}

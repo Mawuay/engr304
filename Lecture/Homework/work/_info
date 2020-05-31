@@ -1,0 +1,110 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\13sp1
+Emultiplexer
+Z0 w1550210480
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dH:\JuniorYear\ENGR304\Lecture\Homework
+Z4 8H:/JuniorYear/ENGR304/Lecture/Homework/4to1MUX.vhd
+Z5 FH:/JuniorYear/ENGR304/Lecture/Homework/4to1MUX.vhd
+l0
+L35
+V4iPE6MX8:1@==go[D:3bR2
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1550217263.064000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/JuniorYear/ENGR304/Lecture/Homework/4to1MUX.vhd|
+Z9 !s107 H:/JuniorYear/ENGR304/Lecture/Homework/4to1MUX.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 Qn<aT>T=@JE>`6FcNmQNZ2
+!i10b 1
+Abehavioral
+R1
+R2
+DEx4 work 11 multiplexer 0 22 4iPE6MX8:1@==go[D:3bR2
+l45
+L44
+VAJJMS?AVPDAUN8l;Iz4973
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 eNa>X2A1zg[U4nf71f9W<1
+!i10b 1
+Eproblem_2
+Z12 w1550212148
+R1
+R2
+R3
+Z13 8H:/JuniorYear/ENGR304/Lecture/Homework/problem2.vhdl
+Z14 FH:/JuniorYear/ENGR304/Lecture/Homework/problem2.vhdl
+l0
+L4
+V?bIX5d6E=`Eo@_g:E0HS;0
+R6
+32
+Z15 !s108 1550217263.585000
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/JuniorYear/ENGR304/Lecture/Homework/problem2.vhdl|
+Z17 !s107 H:/JuniorYear/ENGR304/Lecture/Homework/problem2.vhdl|
+R10
+R11
+!s100 JFa:G7UT=T61Uk?GZ66?81
+!i10b 1
+Abehavioral
+R1
+R2
+DEx4 work 9 problem_2 0 22 ?bIX5d6E=`Eo@_g:E0HS;0
+l13
+L12
+VCOGNV]3=LA0l8Qm?V:dYP2
+R6
+32
+R15
+R16
+R17
+R10
+R11
+!s100 c35DRTf8k4IS14QGQIc9Q2
+!i10b 1
+Eproblem_5
+Z18 w1550218435
+R1
+R2
+R3
+Z19 8H:/JuniorYear/ENGR304/Lecture/Homework/problem5.vhd
+Z20 FH:/JuniorYear/ENGR304/Lecture/Homework/problem5.vhd
+l0
+L4
+VK`k;iP0M^^E4<M`LaNPZb2
+!s100 =QQHnOXfCgkhd3U?`aJU@0
+R6
+32
+!i10b 1
+Z21 !s108 1550218435.990000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/JuniorYear/ENGR304/Lecture/Homework/problem5.vhd|
+Z23 !s107 H:/JuniorYear/ENGR304/Lecture/Homework/problem5.vhd|
+R10
+R11
+Abehavioral
+R1
+R2
+Z24 DEx4 work 9 problem_5 0 22 K`k;iP0M^^E4<M`LaNPZb2
+l13
+L12
+Z25 V`[OadK7jbh3CamLfKTFOf3
+Z26 !s100 n;QkZ:`]_z[_XEjz4gf3R1
+R6
+32
+!i10b 1
+R21
+R22
+R23
+R10
+R11

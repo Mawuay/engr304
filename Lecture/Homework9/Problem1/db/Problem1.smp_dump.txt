@@ -1,0 +1,8 @@
+
+State Machine - |Problem1|y_present
+Name y_present.S5 y_present.S4 y_present.S3 y_present.S2 y_present.S1 
+y_present.S1 0 0 0 0 0 
+y_present.S2 0 0 0 1 1 
+y_present.S3 0 0 1 0 1 
+y_present.S4 0 1 0 0 1 
+y_present.S5 1 0 0 0 1 

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\JuniorYear\ENGR304\Lecture\Homework8\Problem8\simulation\qsim
+vProblem8
+Z1 !s100 m0DZj:haKe8JCXfX`10R82
+Z2 I@P68LKA?9Ghl0SIf<HQ9B2
+Z3 V;zaU^37^N7ZW^YPi4kif>3
+Z4 dH:\JuniorYear\ENGR304\Lecture\Homework8\Problem8\simulation\qsim
+Z5 w1555734468
+Z6 8Problem8.vo
+Z7 FProblem8.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Problem8.vo|
+Z10 o-work work -O0
+Z11 n@problem8
+!i10b 1
+!s85 0
+Z12 !s108 1555734469.597000
+Z13 !s107 Problem8.vo|
+!s101 -O0
+vProblem8_vlg_check_tst
+!i10b 1
+Z14 !s100 Qo2<4FaK2QKY74fEib1XF1
+Z15 I5]=e`cfXJAEkAT`SUEaiU0
+Z16 V7BIU2m8N8E@OiRJW4O34]2
+R4
+Z17 w1555734466
+Z18 8Problem8.vt
+Z19 FProblem8.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1555734469.982000
+Z21 !s107 Problem8.vt|
+Z22 !s90 -work|work|Problem8.vt|
+!s101 -O0
+R10
+Z23 n@problem8_vlg_check_tst
+vProblem8_vlg_sample_tst
+!i10b 1
+Z24 !s100 DX^dJ<<[>PHf66>na<[_?1
+Z25 ID@UB7b^=@aN`1RG46Bci^0
+Z26 VFa[oR2O9JaPBNQ[2:>`?V1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@problem8_vlg_sample_tst
+vProblem8_vlg_vec_tst
+!i10b 1
+!s100 ^ZA6@g?7:@[[_keBAizEU2
+IFN?=D9h;GBU;hOM<e]imG0
+Z28 VTXA?1V`aceTDZjce@SBjO0
+R4
+R17
+R18
+R19
+Z29 L0 191
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@problem8_vlg_vec_tst

@@ -1,0 +1,460 @@
+Fitter report for DiceRoller
+Sat Apr 27 20:26:49 2019
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Fitter Summary
+  3. Fitter Settings
+  4. Parallel Compilation
+  5. Pin-Out File
+  6. Fitter Resource Usage Summary
+  7. Input Pins
+  8. Output Pins
+  9. All Package Pins
+ 10. I/O Standard
+ 11. Dedicated Inputs I/O
+ 12. Output Pin Default Load For Reported TCO
+ 13. Fitter Resource Utilization by Entity
+ 14. Control Signals
+ 15. Global & Other Fast Signals
+ 16. Non-Global High Fan-Out Signals
+ 17. Other Routing Usage Summary
+ 18. LAB Macrocells
+ 19. Parallel Expander
+ 20. Shareable Expander
+ 21. Logic Cell Interconnection
+ 22. Fitter Device Options
+ 23. Fitter Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------+
+; Fitter Summary                                                               ;
++---------------------------+--------------------------------------------------+
+; Fitter Status             ; Successful - Sat Apr 27 20:26:49 2019            ;
+; Quartus II 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name             ; DiceRoller                                       ;
+; Top-level Entity Name     ; DiceRoller                                       ;
+; Family                    ; MAX7000S                                         ;
+; Device                    ; EPM7064SLC44-10                                  ;
+; Timing Models             ; Final                                            ;
+; Total macrocells          ; 29 / 64 ( 45 % )                                 ;
+; Total pins                ; 16 / 36 ( 44 % )                                 ;
++---------------------------+--------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Fitter Settings                                                                                              ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Option                                                                     ; Setting         ; Default Value ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Device                                                                     ; EPM7064SLC44-10 ;               ;
+; Use smart compilation                                                      ; Off             ; Off           ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On              ; On            ;
+; Enable compact report table                                                ; Off             ; Off           ;
+; Optimize Multi-Corner Timing                                               ; Off             ; Off           ;
+; Optimize Timing for ECOs                                                   ; Off             ; Off           ;
+; Regenerate full fit report during ECO compiles                             ; Off             ; Off           ;
+; Optimize IOC Register Placement for Timing                                 ; Normal          ; Normal        ;
+; Fitter Initial Placement Seed                                              ; 1               ; 1             ;
+; Slow Slew Rate                                                             ; Off             ; Off           ;
+; Fitter Effort                                                              ; Auto Fit        ; Auto Fit      ;
+; Force Fitter to Avoid Periphery Placement Warnings                         ; Off             ; Off           ;
++----------------------------------------------------------------------------+-----------------+---------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++--------------+
+; Pin-Out File ;
++--------------+
+The pin-out file can be found in H:/JuniorYear/ENGR304/Lecture/Homework9/output_files/DiceRoller.pin.
+
+
++-------------------------------------------------+
+; Fitter Resource Usage Summary                   ;
++------------------------------+------------------+
+; Resource                     ; Usage            ;
++------------------------------+------------------+
+; Logic cells                  ; 29 / 64 ( 45 % ) ;
+; Registers                    ; 4 / 64 ( 6 % )   ;
+; Number of pterms used        ; 110              ;
+; I/O pins                     ; 16 / 36 ( 44 % ) ;
+;     -- Clock pins            ; 1 / 2 ( 50 % )   ;
+;     -- Dedicated input pins  ; 1 / 2 ( 50 % )   ;
+;                              ;                  ;
+; Global signals               ; 2                ;
+; Shareable expanders          ; 13 / 64 ( 20 % ) ;
+; Parallel expanders           ; 9 / 60 ( 15 % )  ;
+; Cells using turbo bit        ; 29 / 64 ( 45 % ) ;
+; Maximum fan-out              ; 22               ;
+; Highest non-global fan-out   ; 22               ;
+; Total fan-out                ; 241              ;
+; Average fan-out              ; 4.16             ;
++------------------------------+------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Input Pins                                                                                                                                  ;
++-------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+; Name  ; Pin # ; I/O Bank ; LAB ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; I/O Standard ; Location assigned by ;
++-------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+; Clk   ; 43    ; --       ; --  ; 4                     ; 0                  ; yes    ; no             ; TTL          ; Fitter               ;
+; RSTn  ; 1     ; --       ; --  ; 9                     ; 0                  ; yes    ; no             ; TTL          ; Fitter               ;
+; Roll0 ; 28    ; --       ; 3   ; 4                     ; 0                  ; no     ; no             ; TTL          ; Fitter               ;
+; Roll1 ; 40    ; --       ; 4   ; 8                     ; 0                  ; no     ; no             ; TTL          ; Fitter               ;
++-------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Output Pins                                                                                                                                                                                 ;
++---------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+; Name    ; Pin # ; I/O Bank ; LAB ; Output Register ; Slow Slew Rate ; Open Drain ; TRI Primitive ; I/O Standard ; Location assigned by ; Load  ; Output Enable Source ; Output Enable Group ;
++---------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+; Dig0[0] ; 17    ; --       ; 2   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; Dig0[1] ; 19    ; --       ; 2   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; Dig0[2] ; 6     ; --       ; 1   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; Dig0[3] ; 11    ; --       ; 1   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; Dig1[0] ; 5     ; --       ; 1   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; Dig1[1] ; 18    ; --       ; 2   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; Dig1[2] ; 16    ; --       ; 2   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
+; Dig1[3] ; 14    ; --       ; 2   ; no              ; no             ; no         ; no            ; TTL          ; Fitter               ; 10 pF ; -                    ; -                   ;
++---------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; All Package Pins                                                                                      ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+; Location ; Pad Number ; I/O Bank ; Pin Name/Usage ; Dir.   ; I/O Standard ; Voltage ; User Assignment ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+; 1        ; 0          ; --       ; RSTn           ; input  ; TTL          ;         ; N               ;
+; 2        ; 1          ; --       ; GND+           ;        ;              ;         ;                 ;
+; 3        ; 2          ; --       ; VCC            ; power  ;              ;         ;                 ;
+; 4        ; 3          ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 5        ; 4          ; --       ; Dig1[0]        ; output ; TTL          ;         ; N               ;
+; 6        ; 5          ; --       ; Dig0[2]        ; output ; TTL          ;         ; N               ;
+; 7        ; 6          ; --       ; TDI            ; input  ; TTL          ;         ; N               ;
+; 8        ; 7          ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 9        ; 8          ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 10       ; 9          ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 11       ; 10         ; --       ; Dig0[3]        ; output ; TTL          ;         ; N               ;
+; 12       ; 11         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 13       ; 12         ; --       ; TMS            ; input  ; TTL          ;         ; N               ;
+; 14       ; 13         ; --       ; Dig1[3]        ; output ; TTL          ;         ; N               ;
+; 15       ; 14         ; --       ; VCC            ; power  ;              ;         ;                 ;
+; 16       ; 15         ; --       ; Dig1[2]        ; output ; TTL          ;         ; N               ;
+; 17       ; 16         ; --       ; Dig0[0]        ; output ; TTL          ;         ; N               ;
+; 18       ; 17         ; --       ; Dig1[1]        ; output ; TTL          ;         ; N               ;
+; 19       ; 18         ; --       ; Dig0[1]        ; output ; TTL          ;         ; N               ;
+; 20       ; 19         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 21       ; 20         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 22       ; 21         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 23       ; 22         ; --       ; VCC            ; power  ;              ;         ;                 ;
+; 24       ; 23         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 25       ; 24         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 26       ; 25         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 27       ; 26         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 28       ; 27         ; --       ; Roll0          ; input  ; TTL          ;         ; N               ;
+; 29       ; 28         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 30       ; 29         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 31       ; 30         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 32       ; 31         ; --       ; TCK            ; input  ; TTL          ;         ; N               ;
+; 33       ; 32         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 34       ; 33         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 35       ; 34         ; --       ; VCC            ; power  ;              ;         ;                 ;
+; 36       ; 35         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 37       ; 36         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 38       ; 37         ; --       ; TDO            ; output ; TTL          ;         ; N               ;
+; 39       ; 38         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 40       ; 39         ; --       ; Roll1          ; input  ; TTL          ;         ; N               ;
+; 41       ; 40         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 42       ; 41         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 43       ; 42         ; --       ; Clk            ; input  ; TTL          ;         ; N               ;
+; 44       ; 43         ; --       ; GND+           ;        ;              ;         ;                 ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+Note: Pin directions (input, output or bidir) are based on device operating in user mode.
+
+
++--------------------------------------------------------------------------------------------------+
+; I/O Standard                                                                                     ;
++--------------+------------+----------------------+-------------------+-------------------+-------+
+; I/O Standard ; Input Vref ; Dedicated Input Pins ; Pins in I/O Bank1 ; Pins in I/O Bank2 ; Total ;
++--------------+------------+----------------------+-------------------+-------------------+-------+
+; TTL          ; -          ; 2                    ; 0                 ; 0                 ; 2     ;
++--------------+------------+----------------------+-------------------+-------------------+-------+
+
+
++--------------------------------------------------------------------+
+; Dedicated Inputs I/O                                               ;
++------+-------+-------+-------+--------------+------------+---------+
+; Name ; Pin # ; Type  ; VCCIO ; I/O Standard ; Input Vref ; Current ;
++------+-------+-------+-------+--------------+------------+---------+
+; Clk  ; 43    ; Input ; --    ; TTL          ; -          ; 0 mA    ;
+; RSTn ; 1     ; Input ; --    ; TTL          ; -          ; 0 mA    ;
++------+-------+-------+-------+--------------+------------+---------+
+
+
++-----------------------------------------------+
+; Output Pin Default Load For Reported TCO      ;
++--------------+-------+------------------------+
+; I/O Standard ; Load  ; Termination Resistance ;
++--------------+-------+------------------------+
+; TTL          ; 10 pF ; Not Available          ;
++--------------+-------+------------------------+
+Note: User assignments will override these defaults. The user specified values are listed in the Output Pins and Bidir Pins tables.
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                      ;
++------------------------------------+------------+------+--------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node         ; Macrocells ; Pins ; Full Hierarchy Name                                                ; Library Name ;
++------------------------------------+------------+------+--------------------------------------------------------------------+--------------+
+; |DiceRoller                        ; 29         ; 16   ; |DiceRoller                                                        ; work         ;
+;    |lpm_add_sub:Add0|              ; 1          ; 0    ; |DiceRoller|lpm_add_sub:Add0                                       ; work         ;
+;       |addcore:adder|              ; 1          ; 0    ; |DiceRoller|lpm_add_sub:Add0|addcore:adder                         ; work         ;
+;          |a_csnbuffer:result_node| ; 1          ; 0    ; |DiceRoller|lpm_add_sub:Add0|addcore:adder|a_csnbuffer:result_node ; work         ;
+;          |addcore:adder[0]|        ; 0          ; 0    ; |DiceRoller|lpm_add_sub:Add0|addcore:adder|addcore:adder[0]        ; work         ;
++------------------------------------+------------+------+--------------------------------------------------------------------+--------------+
+
+
++----------------------------------------------------------------------------------------------+
+; Control Signals                                                                              ;
++-------+----------+---------+--------------+--------+----------------------+------------------+
+; Name  ; Location ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ;
++-------+----------+---------+--------------+--------+----------------------+------------------+
+; Clk   ; PIN_43   ; 4       ; Clock        ; yes    ; On                   ; --               ;
+; RSTn  ; PIN_1    ; 9       ; Async. clear ; yes    ; On                   ; --               ;
+; Roll0 ; PIN_28   ; 4       ; Clock enable ; no     ; --                   ; --               ;
++-------+----------+---------+--------------+--------+----------------------+------------------+
+
+
++---------------------------------------------------------------------+
+; Global & Other Fast Signals                                         ;
++------+----------+---------+----------------------+------------------+
+; Name ; Location ; Fan-Out ; Global Resource Used ; Global Line Name ;
++------+----------+---------+----------------------+------------------+
+; Clk  ; PIN_43   ; 4       ; On                   ; --               ;
+; RSTn ; PIN_1    ; 9       ; On                   ; --               ;
++------+----------+---------+----------------------+------------------+
+
+
++---------------------------------------------------------------------------------+
+; Non-Global High Fan-Out Signals                                                 ;
++-----------------------------------------------------------------------+---------+
+; Name                                                                  ; Fan-Out ;
++-----------------------------------------------------------------------+---------+
+; Die1[1]~61                                                            ; 22      ;
+; Die1[0]~34                                                            ; 22      ;
+; Die0[1]                                                               ; 20      ;
+; Die1[2]~42                                                            ; 19      ;
+; Die0[2]                                                               ; 18      ;
+; Die0[0]                                                               ; 18      ;
+; Die1[3]~55                                                            ; 17      ;
+; Die0[3]                                                               ; 15      ;
+; lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp           ; 9       ;
+; Roll1                                                                 ; 8       ;
+; lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~1sexp           ; 7       ;
+; lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~4sexp           ; 6       ;
+; lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~4               ; 5       ;
+; lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~5               ; 4       ;
+; Roll0                                                                 ; 4       ;
+; Die1[1]~12sexpand1                                                    ; 4       ;
+; lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~10              ; 2       ;
+; Die1[3]~48                                                            ; 2       ;
+; Dig0~69                                                               ; 1       ;
+; Dig0~63                                                               ; 1       ;
+; Add3~6sexp                                                            ; 1       ;
+; Die1[0]~11sexp                                                        ; 1       ;
+; ~GND~2                                                                ; 1       ;
+; ~GND~1                                                                ; 1       ;
+; ~GND~0                                                                ; 1       ;
+; Dig0~51                                                               ; 1       ;
+; Dig0~46                                                               ; 1       ;
+; Dig0~40                                                               ; 1       ;
+; Dig0~34                                                               ; 1       ;
+; Dig0~32                                                               ; 1       ;
+; LessThan0~16                                                          ; 1       ;
+; LessThan0~10                                                          ; 1       ;
+; Dig0~31                                                               ; 1       ;
+; Dig0~22                                                               ; 1       ;
+; Dig0~10                                                               ; 1       ;
+; Dig0~9                                                                ; 1       ;
+; Dig0~8                                                                ; 1       ;
+; Dig0~7                                                                ; 1       ;
+; Dig0~6                                                                ; 1       ;
+; LessThan0~8                                                           ; 1       ;
+; Add3~7                                                                ; 1       ;
+; Die1[3]~18                                                            ; 1       ;
+; lpm_add_sub:Add0|addcore:adder|a_csnbuffer:result_node|sout_node[0]~6 ; 1       ;
+; Die1[2]~16                                                            ; 1       ;
++-----------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------+
+; Other Routing Usage Summary                     ;
++-----------------------------+-------------------+
+; Other Routing Resource Type ; Usage             ;
++-----------------------------+-------------------+
+; Output enables              ; 0 / 6 ( 0 % )     ;
+; PIA buffers                 ; 24 / 144 ( 17 % ) ;
++-----------------------------+-------------------+
+
+
++----------------------------------------------------------------------+
+; LAB Macrocells                                                       ;
++----------------------------------------+-----------------------------+
+; Number of Macrocells  (Average = 7.25) ; Number of LABs  (Total = 2) ;
++----------------------------------------+-----------------------------+
+; 0                                      ; 2                           ;
+; 1                                      ; 0                           ;
+; 2                                      ; 0                           ;
+; 3                                      ; 0                           ;
+; 4                                      ; 0                           ;
+; 5                                      ; 0                           ;
+; 6                                      ; 0                           ;
+; 7                                      ; 0                           ;
+; 8                                      ; 0                           ;
+; 9                                      ; 0                           ;
+; 10                                     ; 0                           ;
+; 11                                     ; 0                           ;
+; 12                                     ; 0                           ;
+; 13                                     ; 1                           ;
+; 14                                     ; 0                           ;
+; 15                                     ; 0                           ;
+; 16                                     ; 1                           ;
++----------------------------------------+-----------------------------+
+
+
++---------------------------------------------------------+
+; Parallel Expander                                       ;
++--------------------------+------------------------------+
+; Parallel Expander Length ; Number of Parallel Expanders ;
++--------------------------+------------------------------+
+; 0                        ; 0                            ;
+; 1                        ; 1                            ;
+; 2                        ; 1                            ;
+; 3                        ; 2                            ;
++--------------------------+------------------------------+
+
+
++-------------------------------------------------------------------------------+
+; Shareable Expander                                                            ;
++-------------------------------------------------+-----------------------------+
+; Number of shareable expanders  (Average = 3.25) ; Number of LABs  (Total = 2) ;
++-------------------------------------------------+-----------------------------+
+; 0                                               ; 2                           ;
+; 1                                               ; 0                           ;
+; 2                                               ; 0                           ;
+; 3                                               ; 1                           ;
+; 4                                               ; 0                           ;
+; 5                                               ; 0                           ;
+; 6                                               ; 0                           ;
+; 7                                               ; 0                           ;
+; 8                                               ; 0                           ;
+; 9                                               ; 0                           ;
+; 10                                              ; 1                           ;
++-------------------------------------------------+-----------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Logic Cell Interconnection                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;
++-----+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; LAB ; Logic Cell ; Input                                                                                                                                                                                                                                                                                   ; Output                                                                                                                                                                                                                                                                                                                                                                                                       ;
++-----+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+;  A  ; LC1        ; Clk, RSTn, Roll0                                                                                                                                                                                                                                                                        ; Die0[2], Die0[3], Die0[1], lpm_add_sub:Add0|addcore:adder|a_csnbuffer:result_node|sout_node[0]~6, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~1sexp, Dig0~6, Dig0~7, Dig0~22, Dig0~31, LessThan0~10, LessThan0~16, Dig0~32, Dig0~34, Dig0~40, Dig0~46, Dig0~63, Dig0~69, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~4                                                                   ;
+;  A  ; LC4        ; Clk, RSTn, Die0[3], Die0[2], Die0[1], Die0[0], Roll0                                                                                                                                                                                                                                    ; Die0[2], Die0[3], Die0[1], lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~4sexp, Dig0~31, LessThan0~10, Dig0~40, Dig0~51, LessThan0~8, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp, Dig0~10, LessThan0~16, Dig0~34, Dig0~63, Dig0~46, Dig0~69, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~5, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~10                      ;
+;  A  ; LC5        ; Clk, RSTn, Die0[2], Die0[0], Die0[1], Roll0                                                                                                                                                                                                                                             ; Die0[2], Die0[1], LessThan0~8, Dig0~10, Dig0~22, Dig0~31, LessThan0~10, LessThan0~16, Dig0~34, Dig0~40, Dig0~46, Dig0~51, Dig0~32, Dig0~63, Dig0~69                                                                                                                                                                                                                                                          ;
+;  A  ; LC15       ; Die1[2]~42, Die1[1]~61, Roll1, Die1[3]~55, Die1[0]~34                                                                                                                                                                                                                                   ; Die1[2]~42                                                                                                                                                                                                                                                                                                                                                                                                   ;
+;  A  ; LC6        ; Clk, RSTn, Die0[3], Die0[2], Die0[1], Die0[0], Roll0                                                                                                                                                                                                                                    ; Die0[2], Die0[3], Die0[1], LessThan0~8, Dig0~6, Dig0~7, Dig0~8, Dig0~9, Dig0~10, Dig0~22, Dig0~31, LessThan0~10, LessThan0~16, Dig0~32, Dig0~34, Dig0~40, Dig0~46, Dig0~51, Dig0~63, Dig0~69                                                                                                                                                                                                                 ;
+;  A  ; LC16       ; Die1[1]~61, Roll1, Die1[2]~42, Die1[3]~55, Die1[0]~34                                                                                                                                                                                                                                   ; Die1[3]~18, Die1[1]~61                                                                                                                                                                                                                                                                                                                                                                                       ;
+;  A  ; LC7        ; Die1[1]~61, Die1[0]~34                                                                                                                                                                                                                                                                  ; Die1[1]~61                                                                                                                                                                                                                                                                                                                                                                                                   ;
+;  A  ; LC14       ; LessThan0~16, Die0[3], Die1[3]~55, Die0[1], lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~1sexp, Die0[2], Die1[2]~42, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp                                                                                               ; Dig1[0]                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  A  ; LC3        ; Dig0~40, Die0[1], Die1[1]~61, Die1[3]~55, Die0[3], lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~4sexp, Die0[0], Die1[0]~34, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~1sexp, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp                           ; Dig0[3]                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  A  ; LC11       ; Dig0~51, Die1[1]~61, Die0[1], Die1[3]~55, Die0[3], Die0[2], Die1[2]~42, Die0[0], Die1[0]~34, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp                                                                                                                                ; Dig0[2]                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  A  ; LC12       ; Die0[1], Die1[1]~61, Die0[3], Die1[3]~55, Die0[2], Die1[2]~42, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~4sexp, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~1sexp, Die0[0], Die1[0]~34, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp               ; LessThan0~16                                                                                                                                                                                                                                                                                                                                                                                                 ;
+;  A  ; LC13       ; LessThan0~10, Die1[1]~61, Die0[3], Die1[3]~55, Die0[1], lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~4sexp, Die0[0], Die1[0]~34, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~1sexp, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp, Die0[2], Die1[2]~42 ; LessThan0~8                                                                                                                                                                                                                                                                                                                                                                                                  ;
+;  A  ; LC2        ; Die0[1], Die1[1]~61, Die1[3]~55, Die0[3], Die0[2], Die1[2]~42, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~4sexp, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~1sexp, Die0[0], Die1[0]~34, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp               ; Dig0~22                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  A  ; LC9        ; Dig0~69, Die1[3]~55, Die0[3], Die0[1], Die1[1]~61, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~4sexp, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~1sexp, Die0[0], Die1[0]~34, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp, Die0[2], Die1[2]~42      ; Dig0~51                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  A  ; LC10       ; Dig0~46, Die1[1]~61, Die0[1], Die1[3]~55, Die0[3], lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~4sexp, Die0[2], Die1[2]~42, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~1sexp, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp                           ; Dig0~31                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  A  ; LC8        ; Die1[3]~55, Die0[3], Die0[1], Die0[2], Die1[2]~42, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp, Die0[0], Die1[0]~34, Die1[1]~61                                                                                                                                         ; Dig0~46                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  B  ; LC22       ; Die1[0]~34, Die1[1]~12sexpand1, Roll1, RSTn, Die1[0]~11sexp                                                                                                                                                                                                                             ; Die1[0]~34, Die1[2]~16, lpm_add_sub:Add0|addcore:adder|a_csnbuffer:result_node|sout_node[0]~6, Die1[3]~48, Add3~7, Die1[0]~11sexp, Add3~6sexp, Die1[3]~18, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~1sexp, Dig0~6, Dig0~7, Dig0~22, Dig0~31, LessThan0~10, LessThan0~16, Dig0~32, Dig0~34, Dig0~40, Dig0~46, Dig0~63, Dig0~69, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~4          ;
+;  B  ; LC24       ; Die0[0], Die1[0]~34                                                                                                                                                                                                                                                                     ; Dig0[0]                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  B  ; LC26       ; Die1[2]~16, Die1[2]~42, Die1[1]~12sexpand1, Roll1, RSTn                                                                                                                                                                                                                                 ; Die1[2]~16, Die1[2]~42, Die1[3]~48, Die1[3]~18, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~4sexp, Dig0~31, LessThan0~10, Dig0~40, Dig0~51, LessThan0~8, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~3sexp, Dig0~10, LessThan0~16, Dig0~34, Dig0~63, Dig0~46, Dig0~69, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~5, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~10 ;
+;  B  ; LC28       ; Die1[3]~55, Die1[2]~42, Die1[3]~48, Add3~6sexp, Die1[1]~61, Die1[0]~34                                                                                                                                                                                                                  ; Die1[3]~55                                                                                                                                                                                                                                                                                                                                                                                                   ;
+;  B  ; LC27       ; Die1[3]~18, Die1[3]~55, Die1[1]~12sexpand1, Roll1, RSTn                                                                                                                                                                                                                                 ; Die1[2]~16, Die1[3]~18, Die1[3]~48, Die1[3]~55, LessThan0~8, Dig0~10, Dig0~22, Dig0~31, LessThan0~10, LessThan0~16, Dig0~34, Dig0~40, Dig0~46, Dig0~51, Dig0~32, Dig0~63, Dig0~69                                                                                                                                                                                                                            ;
+;  B  ; LC23       ; Die1[1]~61, Die1[1]~12sexpand1, Roll1, RSTn, Add3~7, Die1[3]~48                                                                                                                                                                                                                         ; Die1[2]~16, Die1[3]~48, Add3~7, Die1[1]~61, Dig0~6, Dig0~7, Dig0~8, Dig0~9, Dig0~10, Dig0~22, Dig0~31, LessThan0~10, LessThan0~16, Dig0~32, Dig0~34, Dig0~40, Dig0~46, Dig0~51, Add3~6sexp, Die1[3]~18, Dig0~63, Dig0~69                                                                                                                                                                                     ;
+;  B  ; LC20       ; Dig0~34, Die0[3], Die1[3]~55, Die0[1], Die1[1]~61, Dig0~6, Dig0~7, Dig0~8, Dig0~9, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~4, Die0[2], Die1[2]~42, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~5                                                                ; Dig0[1]                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  B  ; LC18       ; Dig0~63, Die0[1], Die1[1]~61, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~10, Die0[0], Die1[0]~34, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~5, Die0[3], Die1[3]~55                                                                                               ; Dig0~34                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  B  ; LC19       ; Dig0~32, Die1[1]~61, Die0[3], Die1[3]~55, Die0[1], lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|ps[2]~10, Die0[0], Die1[0]~34, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~4, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~5, Die0[2], Die1[2]~42                 ; Dig0~10                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  B  ; LC21       ;                                                                                                                                                                                                                                                                                         ; Dig1[1]                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  B  ; LC25       ;                                                                                                                                                                                                                                                                                         ; Dig1[2]                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  B  ; LC30       ;                                                                                                                                                                                                                                                                                         ; Dig1[3]                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  B  ; LC17       ; Die0[0], Die0[3], Die1[3]~55, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[2]~5, Die1[0]~34, Die0[1], Die1[1]~61, lpm_add_sub:Add0|addcore:adder|addcore:adder[0]|gn[0]~4, Die0[2], Die1[2]~42                                                                                    ; Dig0~32                                                                                                                                                                                                                                                                                                                                                                                                      ;
++-----+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------+
+; Fitter Device Options                                         ;
++----------------------------------------------+----------------+
+; Option                                       ; Setting        ;
++----------------------------------------------+----------------+
+; Enable user-supplied start-up clock (CLKUSR) ; Off            ;
+; Enable device-wide reset (DEV_CLRn)          ; Off            ;
+; Enable device-wide output enable (DEV_OE)    ; Off            ;
+; Enable INIT_DONE output                      ; Off            ;
+; Configuration scheme                         ; Passive Serial ;
+; Security bit                                 ; Off            ;
+; Base pin-out file on sameframe device        ; Off            ;
++----------------------------------------------+----------------+
+
+
++-----------------+
+; Fitter Messages ;
++-----------------+
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (119006): Selected device EPM7064SLC44-10 for design "DiceRoller"
+Info: Quartus II 64-Bit Fitter was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4870 megabytes
+    Info: Processing ended: Sat Apr 27 20:26:49 2019
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

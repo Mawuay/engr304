@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, H:/JuniorYear/ENGR304/Lecture/Homework/Quartus/Problem4.bdf
+source_file = 1, H:/JuniorYear/ENGR304/Lecture/Homework/Quartus/Waveform.vwf
+source_file = 1, H:/JuniorYear/ENGR304/Lecture/Homework/Quartus/db/Problem4.cbx.xml
+design_name = Problem4
+instance = comp, \x1~I , x1, Problem4, 1
+instance = comp, \x2~I , x2, Problem4, 1
+instance = comp, \x3~I , x3, Problem4, 1
+instance = comp, \x4~I , x4, Problem4, 1
+instance = comp, \inst12~7 , inst12~7, Problem4, 1
+instance = comp, \inst12~11 , inst12~11, Problem4, 1
+instance = comp, \f2~I , f2, Problem4, 1
+instance = comp, \f1~I , f1, Problem4, 1

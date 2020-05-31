@@ -1,0 +1,19 @@
+H:/JuniorYear/ENGR304/Lecture/Homework/4to1MUX.vhd {1 {vcom -work work -2002 -explicit H:/JuniorYear/ENGR304/Lecture/Homework/4to1MUX.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Multiplexer
+-- Compiling architecture Behavioral of Multiplexer
+-- Compiling entity Multiplexer
+-- Compiling architecture Behavioral of Multiplexer
+
+} {} {}} H:/JuniorYear/ENGR304/Lecture/Homework/problem2.vhdl {1 {vcom -work work -2002 -explicit H:/JuniorYear/ENGR304/Lecture/Homework/problem2.vhdl
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Problem_2
+-- Compiling architecture Behavioral of Problem_2
+
+} {} {}}

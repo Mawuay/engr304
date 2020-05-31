@@ -1,0 +1,124 @@
+m255
+K3
+13
+cModel Technology
+dH:\JuniorYear\ENGR304\Lecture\Homework
+Ehwlab1
+Z0 w1554930988
+Z1 DPx4 work 12 sevenseg_pkg 0 22 g^zBCc08ecRgC9ZEnWggE1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dH:\JuniorYear\ENGR304\HW01\ModelSim
+Z7 8H:/JuniorYear/ENGR304/HW01/HWLab1/HWLab1.vhd
+Z8 FH:/JuniorYear/ENGR304/HW01/HWLab1/HWLab1.vhd
+l0
+L30
+VhBZ;8[HCVTNlPhieGS7=T1
+!s100 F7XDMPUZ2mDcQ[DT>AIWk1
+Z9 OV;C;10.1d;51
+32
+!i10b 1
+Z10 !s108 1554988438.585000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/JuniorYear/ENGR304/HW01/HWLab1/HWLab1.vhd|
+Z12 !s107 H:/JuniorYear/ENGR304/HW01/HWLab1/HWLab1.vhd|
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1
+Abehav
+R1
+R2
+R3
+R4
+R5
+Z15 DEx4 work 6 hwlab1 0 22 hBZ;8[HCVTNlPhieGS7=T1
+l61
+L51
+Z16 VAdTe1aFLl9]]ZohZ6F>;P0
+Z17 !s100 1@b`dJF1ZcIHP>J6PWJ8b0
+R9
+32
+!i10b 1
+R10
+R11
+R12
+R13
+R14
+Ehwlab1_testbench
+Z18 w1553822946
+R1
+R3
+R2
+R4
+R5
+R6
+Z19 8H:/JuniorYear/ENGR304/HW01/HWLab1/Engr304L_HW01_TestBench.vhd
+Z20 FH:/JuniorYear/ENGR304/HW01/HWLab1/Engr304L_HW01_TestBench.vhd
+l0
+L30
+V@ThLb0Vb55P0?Qh_9T4`Z2
+R9
+32
+Z21 !s108 1554415257.056000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/JuniorYear/ENGR304/HW01/HWLab1/Engr304L_HW01_TestBench.vhd|
+Z23 !s107 H:/JuniorYear/ENGR304/HW01/HWLab1/Engr304L_HW01_TestBench.vhd|
+R13
+R14
+!s100 3ZAQX<=K2K4CM7S_6c5ZL1
+!i10b 1
+Atest
+R1
+R3
+R2
+R4
+R5
+DEx4 work 16 hwlab1_testbench 0 22 @ThLb0Vb55P0?Qh_9T4`Z2
+l59
+L33
+Vgz_>6eg1ZdbA0QO15ZMV?2
+R9
+32
+R21
+R22
+R23
+R13
+R14
+!s100 YK[jUi50FL4^]`?C7lRe:0
+!i10b 1
+Psevenseg_pkg
+R4
+R5
+Z24 w1553822972
+R6
+Z25 8H:/JuniorYear/ENGR304/HW01/HWLab1/sevenseg_pkg.vhd
+Z26 FH:/JuniorYear/ENGR304/HW01/HWLab1/sevenseg_pkg.vhd
+l0
+L25
+Vg^zBCc08ecRgC9ZEnWggE1
+R9
+32
+b1
+Z27 !s108 1554415248.102000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|H:/JuniorYear/ENGR304/HW01/HWLab1/sevenseg_pkg.vhd|
+Z29 !s107 H:/JuniorYear/ENGR304/HW01/HWLab1/sevenseg_pkg.vhd|
+R13
+R14
+!s100 bS312k7:o_IMVdQz3id@f3
+!i10b 1
+Bbody
+R1
+R4
+R5
+l0
+L33
+V;]GBgZX::D8emJb<D]5SY0
+R9
+32
+R27
+R28
+R29
+R13
+R14
+nbody
+!s100 nOdec75D8:z_nLJV@?F9W2
+!i10b 1

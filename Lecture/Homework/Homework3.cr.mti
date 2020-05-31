@@ -1,0 +1,9 @@
+H:/JuniorYear/ENGR304/Lecture/Homework/question1.vhd {0 {vcom -work homework3 -2002 -explicit H:/JuniorYear/ENGR304/Lecture/Homework/question1.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Compiling entity Problem_1
+-- Compiling architecture Behavioral of Problem_1
+** Error: H:/JuniorYear/ENGR304/Lecture/Homework/question1.vhd(15): near "F": syntax error
+** Error: H:/JuniorYear/ENGR304/Lecture/Homework/question1.vhd(17): VHDL Compiler exiting
+
+} {6.0 8.0} {}}

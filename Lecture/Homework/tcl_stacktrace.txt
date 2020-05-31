@@ -1,0 +1,29 @@
+Fri Feb 15 2:32:13 AM Eastern Standard Time 2019
+Trace back: couldn't open "H:/JuniorYear/ENGR304/Lecture/Homework/problem5.vdh": invalid argument
+    while executing
+"open $name w+"
+    (procedure "Project::applyCreateSrcFile" line 42)
+    invoked from within
+"Project::applyCreateSrcFile .creates 0"
+    invoked from within
+".creates.bb.button0 invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "::tk::ButtonInvoke" line 9)
+    invoked from within
+"::tk::ButtonInvoke $ok"
+    ("Entry" arm line 7)
+    invoked from within
+"switch [winfo class $foc] {
+         Text {
+            return 1 ;# Text widget, don't do anything
+         }
+         Entry {
+            # For entry..."
+    (procedure "MtiDialog::privHandleEnter" line 14)
+    invoked from within
+"MtiDialog::privHandleEnter .creates.bb.button0"
+    (command bound to event)
+  <2: ::tkerror {couldn't open "H:/JuniorYear/ENGR304/Lecture/Homework/problem5.vdh": invalid argument}
+  <1: ::bgerror {couldn't open "H:/JuniorYear/ENGR304/Lecture/Homework/problem5.vdh": invalid argument}

@@ -1,0 +1,19 @@
+/* original for loop */
+for (i = 0; i < MAX; i++)
+  action;
+  
+/* for loop translated to while */
+initialize i to 0
+while (i < MAX) {
+  action;
+  increment i;
+}
+
+/* while loop written as assembly operations */
+LOOPBEGIN:
+  branch to LOOPEND if (i >= MAX), else
+  do the action
+  increment i
+  branch to LOOPBEGIN
+
+LOOPEND:

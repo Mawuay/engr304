@@ -1,0 +1,49 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+-- Add a USE statement for the package containing function calls that support
+-- the arithmetic operations on unsigned data.  Similar libraries are available
+-- for signed (2's complement) arithmetic operations.
+USE ieee.std_logic_unsigned.ALL;
+-- Add a USE statement for the package containing function calls that support
+-- the 7-segment displays on the DE2 board.
+
+-----------------------------------------------------------------------------
+-- ENTITY: Problem8
+-----------------------------------------------------------------------------
+ENTITY Problem8 IS
+  PORT (
+			Resetn	: IN STD_LOGIC;
+			FWD 		: IN STD_LOGIC;
+			Clock		: IN STD_LOGIC;
+			Q			: OUT STD_LOGIC_UNSIGNED
+			
+
+  );
+END Problem8;
+
+-----------------------------------------------------------------------------
+-- ARCHITECTURE: behav
+-- This architecture is implemented with behavioural VHDL
+-----------------------------------------------------------------------------
+ARCHITECTURE behav OF Problem8 IS
+  -- This area is used to define types and any internal signals
+  -- Fill_In as necessary to define signals like "Result", etc
+  -- Defining the signals for input, output and timing control of the progamme 
+  signal Count : std_logic_vector(2 downt 0); -- timing control signals 
+  
+	
+BEGIN
+process (Clock, Resetn)
+	if (Resetn = '0') then
+	
+	elsif (Clock' EVENT AND Clock = '1') then
+		if (FWD = '1')then 
+			Count <= Count + 1;
+			
+		elsif (FWD = '0') then
+			Count <= Count - 1;
+		end if;
+end process;
+		
+
+END behav;

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\JuniorYear\ENGR304\Lecture\Homework9\Problem2\simulation\qsim
+vProblem2
+Z1 !s100 hd[KPUFQR9j@95>7^bVcd2
+Z2 I?hfc^]Ha>im7ZESNTNiHV2
+Z3 VMM]=zmKzNd<Le2ol]Xfhj0
+Z4 dH:\JuniorYear\ENGR304\Lecture\Homework9\Problem2\simulation\qsim
+Z5 w1555979936
+Z6 8Problem2.vo
+Z7 FProblem2.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Problem2.vo|
+Z10 o-work work -O0
+Z11 n@problem2
+!i10b 1
+!s85 0
+Z12 !s108 1555979938.273000
+Z13 !s107 Problem2.vo|
+!s101 -O0
+vProblem2_vlg_check_tst
+!i10b 1
+Z14 !s100 =ITdA]]TBF4QW]TQc@Pza2
+Z15 IUSDGW1P_i>ICgmG0k<><k1
+Z16 V[>CIM4BRaCRdDUbO`i>:21
+R4
+Z17 w1555979935
+Z18 8Problem2.vt
+Z19 FProblem2.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1555979938.594000
+Z21 !s107 Problem2.vt|
+Z22 !s90 -work|work|Problem2.vt|
+!s101 -O0
+R10
+Z23 n@problem2_vlg_check_tst
+vProblem2_vlg_sample_tst
+!i10b 1
+Z24 !s100 :M=PZh[9g[;kWdEHKU?Yi0
+Z25 IQGMFlbVoa7fFCzG[Nc`Ll2
+Z26 VB`DMlOo[G0R:EZ550Q1d<2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@problem2_vlg_sample_tst
+vProblem2_vlg_vec_tst
+!i10b 1
+!s100 SJ<zNDzTU^?GV>ZOC1i0D2
+IhDcQzoP[d>[aXDJ]PWB5j1
+Z28 VB<T43;7`]jDkfOC137d?Y0
+R4
+R17
+R18
+R19
+Z29 L0 415
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@problem2_vlg_vec_tst

@@ -1,0 +1,32 @@
+H:/JuniorYear/ENGR304/HW01/HWLab1/sevenseg_pkg.vhd {1 {vcom -work work -2002 -explicit H:/JuniorYear/ENGR304/HW01/HWLab1/sevenseg_pkg.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package SevenSeg_pkg
+-- Compiling package body SevenSeg_pkg
+-- Loading package SevenSeg_pkg
+
+} {} {}} H:/JuniorYear/ENGR304/HW01/HWLab1/Engr304L_HW01_TestBench.vhd {1 {vcom -work work -2002 -explicit H:/JuniorYear/ENGR304/HW01/HWLab1/Engr304L_HW01_TestBench.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package SevenSeg_pkg
+-- Compiling entity HWLab1_TestBench
+-- Compiling architecture test of HWLab1_TestBench
+
+} {} {}} H:/JuniorYear/ENGR304/HW01/HWLab1/HWLab1.vhd {1 {vcom -work work -2002 -explicit H:/JuniorYear/ENGR304/HW01/HWLab1/HWLab1.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package SevenSeg_pkg
+-- Compiling entity HWLab1
+-- Compiling architecture behav of HWLab1
+
+} {} {}}

@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, H:/JuniorYear/ENGR304/Lecture/Homework/Homework4/Problem3.vhd
+source_file = 1, H:/JuniorYear/ENGR304/Lecture/Homework/Homework4/Waveform.vwf
+source_file = 1, H:/JuniorYear/ENGR304/Lecture/Homework/Homework4/db/Problem3.cbx.xml
+source_file = 1, c:/altera/13sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Problem_3
+instance = comp, \F~output , F~output, Problem_3, 1
+instance = comp, \B~input , B~input, Problem_3, 1
+instance = comp, \C~input , C~input, Problem_3, 1
+instance = comp, \D~input , D~input, Problem_3, 1
+instance = comp, \A~input , A~input, Problem_3, 1
+instance = comp, \F~0 , F~0, Problem_3, 1

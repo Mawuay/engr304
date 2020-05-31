@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Problem_5 is
+ port (
+A, B, C, D : IN bit;  
+F: OUT bit 
+ );
+ 
+end entity Problem_3;
+
+architecture Homework of Problem_3 is 
+begin
+process (A,B,C,D) is
+begin 
+  F <= ((not A) and (not C)) or (B and C and D) or (A and B and C);
+end process;
+end Homework;

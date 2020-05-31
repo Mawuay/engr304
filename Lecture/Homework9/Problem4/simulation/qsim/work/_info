@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\JuniorYear\ENGR304\Lecture\Homework9\Problem4\simulation\qsim
+vThunderBird
+Z1 !s100 MH`AYX^J[G<FoWaZP[h8G3
+Z2 IdAnQ7ObVCcl=CPfcf`:F;1
+Z3 VVhU_j5GeSPTOlWcz^P8km3
+Z4 dH:\JuniorYear\ENGR304\Lecture\Homework9\Problem4\simulation\qsim
+Z5 w1555996592
+Z6 8ThunderBird.vo
+Z7 FThunderBird.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ThunderBird.vo|
+Z10 o-work work -O0
+Z11 n@thunder@bird
+!i10b 1
+!s85 0
+Z12 !s108 1555996594.160000
+Z13 !s107 ThunderBird.vo|
+!s101 -O0
+vThunderBird_vlg_check_tst
+!i10b 1
+Z14 !s100 2=9o8BM:dNO=Z_i9eGz:S1
+Z15 Ib7VLC2>R5ljbd5^OUjlHM2
+Z16 VcoFTE_6aWjWj2`go296hD0
+R4
+Z17 w1555996591
+Z18 8ThunderBird.vt
+Z19 FThunderBird.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1555996594.410000
+Z21 !s107 ThunderBird.vt|
+Z22 !s90 -work|work|ThunderBird.vt|
+!s101 -O0
+R10
+Z23 n@thunder@bird_vlg_check_tst
+vThunderBird_vlg_sample_tst
+!i10b 1
+Z24 !s100 :6<6[:V>O^Z_V2dKgPD;M0
+Z25 I?[miF_3Yb5lZK;`0B1[542
+Z26 VGP6hGL32kWQ3H]nWgkZK31
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@thunder@bird_vlg_sample_tst
+vThunderBird_vlg_vec_tst
+!i10b 1
+!s100 S42COKRQ`Fz;h=6RKBX=B1
+I?2EKLAEKRnzP6k3ATZ0K;3
+Z28 VM@jH<BWA@4e58CKcRlo?a3
+R4
+R17
+R18
+R19
+Z29 L0 210
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@thunder@bird_vlg_vec_tst

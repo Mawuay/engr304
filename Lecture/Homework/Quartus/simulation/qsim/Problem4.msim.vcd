@@ -1,0 +1,184 @@
+$comment
+	File created using the following command:
+		vcd file Problem4.msim.vcd -direction
+$end
+$date
+	Fri Feb 15 02:17:19 2019
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Problem4_vlg_vec_tst $end
+$var reg 1 ! x1 $end
+$var reg 1 " x2 $end
+$var reg 1 # x3 $end
+$var reg 1 $ x4 $end
+$var wire 1 % f1 $end
+$var wire 1 & f2 $end
+$var wire 1 ' sampler $end
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var wire 1 + x1~dataout $end
+$var wire 1 , x2~dataout $end
+$var wire 1 - x3~dataout $end
+$var wire 1 . x4~dataout $end
+$var wire 1 / inst12~7_dataout $end
+$var wire 1 0 inst12~11_dataout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+x'
+0(
+1)
+x*
+0+
+0,
+0-
+0.
+0/
+00
+$end
+#20000
+1$
+1.
+0'
+#40000
+1#
+0$
+1-
+0.
+1'
+#60000
+1$
+1.
+0'
+#80000
+1"
+0#
+0$
+1,
+0-
+0.
+1'
+10
+1/
+1%
+1&
+#100000
+1$
+1.
+0'
+#120000
+1#
+0$
+1-
+0.
+1'
+#140000
+1$
+1.
+0'
+#160000
+1!
+0"
+0#
+0$
+1+
+0,
+0-
+0.
+1'
+00
+0/
+0%
+0&
+#180000
+1$
+1.
+0'
+#200000
+1#
+0$
+1-
+0.
+1'
+#220000
+1$
+1.
+0'
+#240000
+1"
+0#
+0$
+1,
+0-
+0.
+1'
+10
+1/
+1%
+1&
+#260000
+1$
+1.
+0'
+0/
+00
+0&
+0%
+#280000
+1#
+0$
+1-
+0.
+1'
+10
+1/
+1%
+1&
+#300000
+1$
+1.
+0'
+#320000
+0!
+0"
+0#
+0$
+0+
+0,
+0-
+0.
+1'
+00
+0/
+0%
+0&
+#340000
+1$
+1.
+0'
+#360000
+1#
+0$
+1-
+0.
+1'
+#380000
+1$
+1.
+0'
+#400000

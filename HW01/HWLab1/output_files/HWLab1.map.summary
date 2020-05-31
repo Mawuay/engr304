@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Apr 11 18:31:04 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : HWLab1
+Top-level Entity Name : HWLab1
+Family : Cyclone II
+Total logic elements : 138
+    Total combinational functions : 138
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 72
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

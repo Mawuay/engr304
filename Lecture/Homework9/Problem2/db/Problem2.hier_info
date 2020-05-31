@@ -1,0 +1,35 @@
+|Problem2
+Resetn => Count2[0].ACLR
+Resetn => Count2[1].ACLR
+Resetn => Count2[2].ACLR
+Resetn => Count1[0].ACLR
+Resetn => Count1[1].ACLR
+Resetn => Count1[2].ACLR
+Clock => Count2[0].CLK
+Clock => Count2[1].CLK
+Clock => Count2[2].CLK
+Clock => Count1[0].CLK
+Clock => Count1[1].CLK
+Clock => Count1[2].CLK
+Stop1 => Count1[2].ENA
+Stop1 => Count1[1].ENA
+Stop1 => Count1[0].ENA
+Stop2 => Count2[2].ENA
+Stop2 => Count2[1].ENA
+Stop2 => Count2[0].ENA
+DIG1[0] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+DIG1[1] <= <GND>
+DIG1[2] <= <GND>
+DIG1[3] <= <GND>
+DIG0[0] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+DIG0[1] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+DIG0[2] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+DIG0[3] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+Dice1[0] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Dice1[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Dice1[2] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+Dice2[0] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+Dice2[1] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+Dice2[2] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+
+

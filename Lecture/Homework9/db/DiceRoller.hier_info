@@ -1,0 +1,25 @@
+|DiceRoller
+Roll0 => Die0.OUTPUTSELECT
+Roll0 => Die0.OUTPUTSELECT
+Roll0 => Die0.OUTPUTSELECT
+Roll0 => Die0.OUTPUTSELECT
+Roll1 => Die1[0].OUTPUTSELECT
+Roll1 => Die1[1].OUTPUTSELECT
+Roll1 => Die1[1].IN1
+Roll1 => Die1[2].OUTPUTSELECT
+Roll1 => Die1[3].OUTPUTSELECT
+Clk => Die0[0].CLK
+Clk => Die0[1].CLK
+Clk => Die0[2].CLK
+Clk => Die0[3].CLK
+RSTn => clk_proc.IN0
+Dig0[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+Dig0[1] <= Dig0.DB_MAX_OUTPUT_PORT_TYPE
+Dig0[2] <= Dig0.DB_MAX_OUTPUT_PORT_TYPE
+Dig0[3] <= Dig0.DB_MAX_OUTPUT_PORT_TYPE
+Dig1[0] <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+Dig1[1] <= <GND>
+Dig1[2] <= <GND>
+Dig1[3] <= <GND>
+
+

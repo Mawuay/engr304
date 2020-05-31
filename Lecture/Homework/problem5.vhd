@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Problem_5 is
+ port (
+A, B, C, D : IN bit;  
+F, G : OUT bit 
+ );
+ 
+end entity Problem_5;
+
+architecture Behavioral of Problem_5 is 
+begin
+process (A,B,C,D) is
+begin 
+  F <= ((A and (not C)) or (B and (not C)) or ((not C) and (not D)) or (A and B) or (A and (not D)));
+  
+  
+  G <= ( (A or (not C)) and ( (A or B) or (not D)) and((B or (not C))or (not D)) );
+
+end process;
+end Behavioral;
+
